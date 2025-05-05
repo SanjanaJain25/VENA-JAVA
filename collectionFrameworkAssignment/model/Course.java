@@ -1,4 +1,6 @@
-package collectionFrameworkAssignment;
+package collectionFrameworkAssignment.model;
+
+import collectionFrameworkAssignment.Student;
 
 import java.util.*;
 

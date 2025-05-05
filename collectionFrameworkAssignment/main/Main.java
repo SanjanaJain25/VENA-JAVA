@@ -1,4 +1,8 @@
-package collectionFrameworkAssignment;
+package collectionFrameworkAssignment.main;
+
+import collectionFrameworkAssignment.service.RegistrationSystem;
+import collectionFrameworkAssignment.Student;
+import collectionFrameworkAssignment.model.Course;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,10 +10,10 @@ public class Main {
         RegistrationSystem system = new RegistrationSystem();
 
         // Create students
-        Student s1 = new Student("S001", "John", "john@example.com", "2023", "CS");
-        Student s2 = new Student("S002", "Alice", "alice@example.com", "2022", "IT");
-        Student s3 = new Student("S003", "Bob", "bob@example.com", "2023", "CS");
-        Student s4 = new Student("S004", "Charlie", "charlie@example.com", "2021", "CS");
+        Student s1 = new Student("S001", "sanjana", "sanjana@gmail.com", "2023", "CS");
+        Student s2 = new Student("S002", "Ranu", "ranu@gmail.com", "2022", "IT");
+        Student s3 = new Student("S003", "Riya", "riya@gmail.com", "2023", "CS");
+        Student s4 = new Student("S004", "Charu", "charu@gmail.com", "2021", "CS");
 
         // Add students to system
         system.addStudent(s1);
